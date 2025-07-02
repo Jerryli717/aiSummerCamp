@@ -56,7 +56,7 @@ models = dict()
 
 models['SVM'] = SVC(kernel='rbf')   # kernel specifies the kernel type, 'rbf' is the radial basis function
 models['KNeighbor'] = KNeighborsClassifier(n_neighbors=10)  # n_neighbors specifies the number of neighbors
-models['RandomForest'] = RandomForestClassifier(n_estimators=100)  # n_estimators specifies the number of trees in the forest
+models['RandomForest'] = RandomForestClassifier(n_estimators=90)  # n_estimators specifies the number of trees in the forest
 
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from matplotlib import pyplot as plt
